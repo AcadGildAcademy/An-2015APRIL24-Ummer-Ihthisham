@@ -1,0 +1,22 @@
+
+public class NumPatern {
+
+	public static void main(String[] args) {
+		
+		int i=0;
+		int j=0;
+		int r=5;
+		
+		for (i=1,r=5;i<=5;i++,r--)
+		{
+			for(j=1;j<=r;j++)
+			{
+				System.out.print(j);
+			}
+				
+			System.out.println();
+		}
+
+	}
+
+}

@@ -1,0 +1,47 @@
+
+public class NumPatern
+{
+	
+	
+	public static void main(String args [] )
+	{
+
+		int ck=0;
+		int c=2;
+		int i=0;
+		int r=0;
+		int j=0;
+		while(c>0)
+		{
+			if(ck==0)
+			{
+				
+				for(i=1;i<=5;i++)
+				{
+					for(j=1;j<=i;j++)
+					{
+						System.out.print(j);
+				
+					}
+					System.out.println();
+				}
+			}
+			
+			else
+			{
+				for(i=1,r=5;i<5-1;i++,r--)
+				{
+					for(j=1;j<=r;j++)
+					{
+						System.out.print(j);
+						
+					}
+					
+					System.out.println();
+				}
+			}
+		
+			c--;
+		}
+	}
+}
